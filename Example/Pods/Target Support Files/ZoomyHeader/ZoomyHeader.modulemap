@@ -1,0 +1,6 @@
+framework module ZoomyHeader {
+  umbrella header "ZoomyHeader-umbrella.h"
+
+  export *
+  module * { export * }
+}

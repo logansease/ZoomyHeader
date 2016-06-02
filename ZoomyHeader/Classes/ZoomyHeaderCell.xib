@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZoomyHeaderCell" rowHeight="200" id="KGk-i7-Jjw" customClass="ZoomyHeaderCell" customModule="ZoomyHeader">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="329" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="21022" contentMode="scaleToFill" maximumZoomScale="3" translatesAutoresizingMaskIntoConstraints="NO" id="5p1-il-VJd">
+                        <rect key="frame" x="0.0" y="0.0" width="329" height="200"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" tag="21023" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner.png" translatesAutoresizingMaskIntoConstraints="NO" id="f07-Va-wgO">
+                                <rect key="frame" x="0.0" y="0.0" width="329" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="IDn-uZ-kJc"/>
+                                    <constraint firstAttribute="height" constant="200" id="bim-Fm-8HF"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="bim-Fm-8HF"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="f07-Va-wgO" firstAttribute="height" secondItem="5p1-il-VJd" secondAttribute="height" id="0XT-il-obb"/>
+                            <constraint firstAttribute="bottom" secondItem="f07-Va-wgO" secondAttribute="bottom" id="16I-GH-scg"/>
+                            <constraint firstItem="f07-Va-wgO" firstAttribute="centerX" secondItem="5p1-il-VJd" secondAttribute="centerX" id="3g6-9l-Jc2"/>
+                            <constraint firstAttribute="trailing" secondItem="f07-Va-wgO" secondAttribute="trailing" id="6IB-Qh-yuM"/>
+                            <constraint firstItem="f07-Va-wgO" firstAttribute="width" secondItem="5p1-il-VJd" secondAttribute="width" id="Ann-PO-9f1"/>
+                            <constraint firstItem="f07-Va-wgO" firstAttribute="top" secondItem="5p1-il-VJd" secondAttribute="top" id="BnB-gn-Zdg"/>
+                            <constraint firstItem="f07-Va-wgO" firstAttribute="leading" secondItem="5p1-il-VJd" secondAttribute="leading" id="Q2s-9q-I9Z"/>
+                            <constraint firstItem="f07-Va-wgO" firstAttribute="centerY" secondItem="5p1-il-VJd" secondAttribute="centerY" id="WDt-HQ-CUn"/>
+                            <constraint firstItem="f07-Va-wgO" firstAttribute="width" secondItem="5p1-il-VJd" secondAttribute="width" id="abP-7I-y9Q"/>
+                            <constraint firstItem="f07-Va-wgO" firstAttribute="height" secondItem="5p1-il-VJd" secondAttribute="height" id="fSF-ch-tnv"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0XT-il-obb"/>
+                                <exclude reference="abP-7I-y9Q"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outlet property="delegate" destination="KGk-i7-Jjw" id="Wfx-z7-5Gd"/>
+                        </connections>
+                    </scrollView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5p1-il-VJd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1TI-pK-IBh"/>
+                    <constraint firstAttribute="bottom" secondItem="5p1-il-VJd" secondAttribute="bottom" id="2Bi-3R-UPx"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="f07-Va-wgO" secondAttribute="trailing" constant="-8" id="ASo-ql-ABy"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="f07-Va-wgO" secondAttribute="bottom" constant="-8.5" id="L5e-Bq-eeA"/>
+                    <constraint firstItem="f07-Va-wgO" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="TK4-48-132"/>
+                    <constraint firstItem="5p1-il-VJd" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="TnF-WT-08u"/>
+                    <constraint firstItem="5p1-il-VJd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bG1-RR-ZbJ"/>
+                    <constraint firstItem="f07-Va-wgO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="dba-uO-UcJ"/>
+                    <constraint firstItem="5p1-il-VJd" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ffz-lv-IeJ"/>
+                    <constraint firstItem="5p1-il-VJd" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="npe-Sx-7fE"/>
+                    <constraint firstItem="5p1-il-VJd" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="qHk-Bg-Wc8"/>
+                    <constraint firstItem="f07-Va-wgO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="rvW-aJ-nEp"/>
+                    <constraint firstAttribute="trailing" secondItem="5p1-il-VJd" secondAttribute="trailing" id="rwA-EA-dvT"/>
+                    <constraint firstItem="5p1-il-VJd" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="uHu-en-uVV"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="1TI-pK-IBh"/>
+                        <exclude reference="2Bi-3R-UPx"/>
+                        <exclude reference="bG1-RR-ZbJ"/>
+                        <exclude reference="npe-Sx-7fE"/>
+                        <exclude reference="rwA-EA-dvT"/>
+                        <exclude reference="ASo-ql-ABy"/>
+                        <exclude reference="L5e-Bq-eeA"/>
+                        <exclude reference="TK4-48-132"/>
+                        <exclude reference="dba-uO-UcJ"/>
+                        <exclude reference="rvW-aJ-nEp"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="fullImageView" destination="f07-Va-wgO" id="6ku-WL-y0g"/>
+                <outlet property="scrollView" destination="5p1-il-VJd" id="IsV-mH-CId"/>
+            </connections>
+            <point key="canvasLocation" x="309.5" y="355"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="banner.png" width="696" height="342"/>
+    </resources>
+</document>

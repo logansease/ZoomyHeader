@@ -1,0 +1,6 @@
+framework module Pods_ZoomyHeader_Example {
+  umbrella header "Pods-ZoomyHeader_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

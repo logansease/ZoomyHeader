@@ -1,0 +1,27 @@
+{
+  "name": "ZoomyHeader",
+  "version": "0.1.0",
+  "summary": "A short description of ZoomyHeader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ZoomyHeader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Logan Sease": "logan.sease@qonceptual.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ZoomyHeader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZoomyHeader/Classes/**/*",
+  "resource_bundles": {
+    "ZoomyHeader": [
+      "Pod/**/*.xib"
+    ]
+  }
+}

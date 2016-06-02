@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ZoomyHeader/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZoomyHeader' => ['ZoomyHeader/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'ZoomyHeader' => ['Pod/**/*.xib']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

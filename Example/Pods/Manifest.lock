@@ -1,0 +1,16 @@
+PODS:
+  - ZoomyHeader (0.1.0)
+
+DEPENDENCIES:
+  - ZoomyHeader (from `../`)
+
+EXTERNAL SOURCES:
+  ZoomyHeader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZoomyHeader: 1c0f7e824baf983cec8159fcfb002daaaa0a2dd9
+
+PODFILE CHECKSUM: c669ee8c930f02024b8e602bac17d842b2b95af4
+
+COCOAPODS: 1.0.1
