@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZoomyHeader_Example' do
+  pod 'ZoomyHeader', :path => '../'
+
+  target 'ZoomyHeader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
