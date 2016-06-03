@@ -16,11 +16,6 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        //use auto adjusting tabelview heights
-//        tableView.estimatedRowHeight = 300
-//        tableView.rowHeight = UITableViewAutomaticDimension
-        
-        // Do any additional setup after loading the view, typically from a nib.
         ZoomyHeaderCell.registerZoomyCellIdentifier(tableView)
     }
 
@@ -43,7 +38,6 @@ class ViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCellWithIdentifier(identifier, forIndexPath: indexPath)
         
-        //TODO: handle a blank row when no coupons or deals are found
         if let imageCell = cell as? ZoomyHeaderCell
         {
             imageCell.fullImageView.image = UIImage(named: "city1.jpg")
