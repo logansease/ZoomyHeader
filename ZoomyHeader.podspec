@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZoomyHeader'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZoomyHeader.'
+  s.summary          = 'A nice image header cell that zooms as you scroll up'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Zoomy header is a way to add an image cell to your UITableView that will zoom in as you scroll up, similar to Twitter and other apps. It is simple to implement with just a few lines of code!
                        DESC
 
   s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ZoomyHeader'
