@@ -1,5 +1,5 @@
 PODS:
-  - ZoomyHeader (0.1.0)
+  - ZoomyHeader (0.1.1)
 
 DEPENDENCIES:
   - ZoomyHeader (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZoomyHeader: 1c0f7e824baf983cec8159fcfb002daaaa0a2dd9
+  ZoomyHeader: f9edf43d3e54448622e26ac16ad14e19657ced3c
 
 PODFILE CHECKSUM: c669ee8c930f02024b8e602bac17d842b2b95af4
 

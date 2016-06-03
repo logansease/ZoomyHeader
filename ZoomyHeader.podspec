@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZoomyHeader'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A nice image header cell that zooms as you scroll up'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Zoomy header is a way to add an image cell to your UITableView that will zoom in
   s.source_files = 'ZoomyHeader/Classes/**/*'
   
    s.resource_bundles = {
-     'ZoomyHeader' => ['Pod/**/*.xib']
+     'ZoomyHeader' => 'ZoomyHeader/Classes/**/*.xib'
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

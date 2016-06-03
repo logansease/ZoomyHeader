@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06335A553374FF36CB6B8E56048BB746 /* ZoomyHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6988F194C760ECCA20093BE8EDBF8E /* ZoomyHeader-dummy.m */; };
+		06335A553374FF36CB6B8E56048BB746 /* ZoomyHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E523C2782FA04B8519E95C2865836B7 /* ZoomyHeader-dummy.m */; };
 		20083D9BA943C7E6584F143401146115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		23D67914814C861974C56109940F3D2D /* Pods-ZoomyHeader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 530AE9EE0C21A693971BD3A3DD3F3E02 /* Pods-ZoomyHeader_Tests-dummy.m */; };
-		2C9DC2D779D932515A00AF1D0DA6194C /* ZoomyHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B138DA395FCE8A305334C3D31F4446 /* ZoomyHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C9DC2D779D932515A00AF1D0DA6194C /* ZoomyHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9ED53987F9EDAC14C8AC90F6DF5512 /* ZoomyHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31F85E2BB8011BB9C71AD0592932C882 /* Pods-ZoomyHeader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD887B02D3A6EFB6253F68D06BFBA1D9 /* Pods-ZoomyHeader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38A73B4B33EB62DF00471974C7F30DBE /* ZoomyHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B48BDE9A05CC1D7C518A4177372657 /* ZoomyHeaderCell.swift */; };
+		38A73B4B33EB62DF00471974C7F30DBE /* ZoomyHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAFB67F8266A5186681DEEE9AED30EF /* ZoomyHeaderCell.swift */; };
 		52B7C2B74E20403A7A074137741BE738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		76FA23B59D44DF8080E1D9A5C5D8D39F /* ZoomyHeaderCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3BD8D960F6833FD530018E52DBB284E4 /* ZoomyHeaderCell.xib */; };
+		76FA23B59D44DF8080E1D9A5C5D8D39F /* ZoomyHeaderCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 57116AD0017FA30F9F32D26F16E4F226 /* ZoomyHeaderCell.xib */; };
+		812E154FAFC39FD337FE3ED6CB2F5E1E /* ZoomyHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57116AD0017FA30F9F32D26F16E4F226 /* ZoomyHeaderCell.xib */; };
 		AF7531339BBBFC8701C03DC573A3B9D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E2EF6D0FF7B542195FBE0B660F150500 /* ZoomyHeader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF958FAAA917BCB3ADE034047D9E09A2 /* ZoomyHeader.bundle */; };
 		EE98F5520B02D261CF3DDCBED80E4D33 /* Pods-ZoomyHeader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF48F52D90E7454D034DF866586B1A67 /* Pods-ZoomyHeader_Example-dummy.m */; };
@@ -39,31 +40,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A5226E0A160146C688C256D9124B30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02DD016F9961DD3815B050344CA027EA /* Pods-ZoomyHeader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZoomyHeader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B04837DFC34398B56FA134CF5CB0409 /* ZoomyHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZoomyHeader.xcconfig; sourceTree = "<group>"; };
 		0C23BDA0010CF6B712F7CF63CB8DADA8 /* Pods-ZoomyHeader_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomyHeader_Tests-resources.sh"; sourceTree = "<group>"; };
 		1911DE9FE597D277B3B666E0D936FD86 /* Pods-ZoomyHeader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomyHeader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		23B48BDE9A05CC1D7C518A4177372657 /* ZoomyHeaderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZoomyHeaderCell.swift; sourceTree = "<group>"; };
-		333A8330306EF0171CD6FCAC3CAEF445 /* ZoomyHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZoomyHeader.modulemap; sourceTree = "<group>"; };
-		3BD8D960F6833FD530018E52DBB284E4 /* ZoomyHeaderCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ZoomyHeaderCell.xib; sourceTree = "<group>"; };
+		2436F72BF92F1EB9B2F850DC425A6774 /* ResourceBundle-ZoomyHeader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZoomyHeader-Info.plist"; sourceTree = "<group>"; };
+		2AAFB67F8266A5186681DEEE9AED30EF /* ZoomyHeaderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZoomyHeaderCell.swift; sourceTree = "<group>"; };
+		2CD3613A5B19D8BDD168C4DCF864A351 /* ZoomyHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZoomyHeader.modulemap; sourceTree = "<group>"; };
 		530AE9EE0C21A693971BD3A3DD3F3E02 /* Pods-ZoomyHeader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZoomyHeader_Tests-dummy.m"; sourceTree = "<group>"; };
-		565C30A143A8AC850B35845835E700FB /* ResourceBundle-ZoomyHeader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZoomyHeader-Info.plist"; sourceTree = "<group>"; };
-		57297A84899A04C5CF7176DF5E9B281B /* ZoomyHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZoomyHeader-prefix.pch"; sourceTree = "<group>"; };
+		57116AD0017FA30F9F32D26F16E4F226 /* ZoomyHeaderCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ZoomyHeaderCell.xib; sourceTree = "<group>"; };
 		58D63EE4ED78DCD1C709913F5EEA8382 /* Pods-ZoomyHeader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZoomyHeader_Example.modulemap"; sourceTree = "<group>"; };
 		596BCFE0F9AC8AF45279794339DBEDA4 /* ZoomyHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZoomyHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D01D9244683DDE8F055D1B068745114 /* ZoomyHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZoomyHeader-prefix.pch"; sourceTree = "<group>"; };
+		5E523C2782FA04B8519E95C2865836B7 /* ZoomyHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZoomyHeader-dummy.m"; sourceTree = "<group>"; };
 		616ACB547090A6A24D5C8E3E707E42A7 /* Pods-ZoomyHeader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZoomyHeader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		66F2D3B4F707CD7D1B6D686F58B12FD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68ED2EB8DD56464C13E597DC025B71C1 /* Pods-ZoomyHeader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZoomyHeader_Tests.modulemap"; sourceTree = "<group>"; };
 		69946F4C17E42CB2656E33FF3D5DA347 /* Pods-ZoomyHeader_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomyHeader_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		71B5B432085828B52970196E3EA3D949 /* Pods-ZoomyHeader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZoomyHeader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7DAA923A5081CAEB25259646B33D1DBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8210349DB6DA116134F1B1977D3B0F9F /* Pods-ZoomyHeader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomyHeader_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		86B138DA395FCE8A305334C3D31F4446 /* ZoomyHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZoomyHeader-umbrella.h"; sourceTree = "<group>"; };
 		89570688CDFB6835475D7CB3E92C314B /* Pods-ZoomyHeader_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomyHeader_Example-resources.sh"; sourceTree = "<group>"; };
-		9355DECA100EFA778786BF673614BA32 /* ZoomyHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZoomyHeader.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93DAEF876BD33D6DE92962041E2B5F03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6D61A7DDFD5931626E3CB1A62515C58 /* Pods-ZoomyHeader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomyHeader_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AE6988F194C760ECCA20093BE8EDBF8E /* ZoomyHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZoomyHeader-dummy.m"; sourceTree = "<group>"; };
+		AC9ED53987F9EDAC14C8AC90F6DF5512 /* ZoomyHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZoomyHeader-umbrella.h"; sourceTree = "<group>"; };
 		AF958FAAA917BCB3ADE034047D9E09A2 /* ZoomyHeader.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomyHeader.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFB54B64013B692917719CC3E6FD1FD /* Pods-ZoomyHeader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZoomyHeader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BD887B02D3A6EFB6253F68D06BFBA1D9 /* Pods-ZoomyHeader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZoomyHeader_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -111,20 +112,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A7FC0B482C08520463668462F54C33B /* ZoomyHeader */ = {
+		0764C6DA9589EEB8229FF8AE3E14A57A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5EABBB6575C341A83281D4D8F539EA40 /* Classes */,
+				2AAFB67F8266A5186681DEEE9AED30EF /* ZoomyHeaderCell.swift */,
+				57116AD0017FA30F9F32D26F16E4F226 /* ZoomyHeaderCell.xib */,
 			);
-			path = ZoomyHeader;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		30F2C6CFEC83E4A1386F05262DC10774 /* Development Pods */ = {
+		34DE102D6798BEFD296C422F3AC8AAB6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D6D12F9160B5EC6752EE5438404E2D4C /* ZoomyHeader */,
+				02A5226E0A160146C688C256D9124B30 /* Info.plist */,
+				2436F72BF92F1EB9B2F850DC425A6774 /* ResourceBundle-ZoomyHeader-Info.plist */,
+				2CD3613A5B19D8BDD168C4DCF864A351 /* ZoomyHeader.modulemap */,
+				0B04837DFC34398B56FA134CF5CB0409 /* ZoomyHeader.xcconfig */,
+				5E523C2782FA04B8519E95C2865836B7 /* ZoomyHeader-dummy.m */,
+				5D01D9244683DDE8F055D1B068745114 /* ZoomyHeader-prefix.pch */,
+				AC9ED53987F9EDAC14C8AC90F6DF5512 /* ZoomyHeader-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZoomyHeader";
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -146,13 +155,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5EABBB6575C341A83281D4D8F539EA40 /* Classes */ = {
+		71613092AEFC2EE3B93CE9161B3B9C31 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				23B48BDE9A05CC1D7C518A4177372657 /* ZoomyHeaderCell.swift */,
-				3BD8D960F6833FD530018E52DBB284E4 /* ZoomyHeaderCell.xib */,
+				A0821666836655CE1AFD45C7346A0DBC /* ZoomyHeader */,
 			);
-			path = Classes;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		75D760F276C1793F98825FA430767BBB /* Pods-ZoomyHeader_Example */ = {
@@ -177,11 +185,27 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				30F2C6CFEC83E4A1386F05262DC10774 /* Development Pods */,
+				A486DA2D5889A1C10AE7473DBE3B2057 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				5C0466F05CF4A55B7BFBBE228FA196E2 /* Products */,
 				AD00EDC5F7EE5278D897A46A08C92CBD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		A0821666836655CE1AFD45C7346A0DBC /* ZoomyHeader */ = {
+			isa = PBXGroup;
+			children = (
+				DDD31F1FDC55B8BB846C061A72D4FB2E /* Classes */,
+			);
+			path = ZoomyHeader;
+			sourceTree = "<group>";
+		};
+		A486DA2D5889A1C10AE7473DBE3B2057 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFC334D123087F9AA0DE937FBBE4CA4C /* ZoomyHeader */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		AD00EDC5F7EE5278D897A46A08C92CBD /* Targets Support Files */ = {
@@ -193,21 +217,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AEB858D51483A55F7589242C8F627422 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				66F2D3B4F707CD7D1B6D686F58B12FD5 /* Info.plist */,
-				565C30A143A8AC850B35845835E700FB /* ResourceBundle-ZoomyHeader-Info.plist */,
-				333A8330306EF0171CD6FCAC3CAEF445 /* ZoomyHeader.modulemap */,
-				9355DECA100EFA778786BF673614BA32 /* ZoomyHeader.xcconfig */,
-				AE6988F194C760ECCA20093BE8EDBF8E /* ZoomyHeader-dummy.m */,
-				57297A84899A04C5CF7176DF5E9B281B /* ZoomyHeader-prefix.pch */,
-				86B138DA395FCE8A305334C3D31F4446 /* ZoomyHeader-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZoomyHeader";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,14 +225,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D6D12F9160B5EC6752EE5438404E2D4C /* ZoomyHeader */ = {
+		BFC334D123087F9AA0DE937FBBE4CA4C /* ZoomyHeader */ = {
 			isa = PBXGroup;
 			children = (
-				AEB858D51483A55F7589242C8F627422 /* Support Files */,
-				0A7FC0B482C08520463668462F54C33B /* ZoomyHeader */,
+				71613092AEFC2EE3B93CE9161B3B9C31 /* Resources */,
+				34DE102D6798BEFD296C422F3AC8AAB6 /* Support Files */,
+				D1CF5B83F739E9F4F08F5517AF34C1D6 /* ZoomyHeader */,
 			);
 			name = ZoomyHeader;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		D1CF5B83F739E9F4F08F5517AF34C1D6 /* ZoomyHeader */ = {
+			isa = PBXGroup;
+			children = (
+				0764C6DA9589EEB8229FF8AE3E14A57A /* Classes */,
+			);
+			path = ZoomyHeader;
+			sourceTree = "<group>";
+		};
+		DDD31F1FDC55B8BB846C061A72D4FB2E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		E362A0A1702473FC5B6522F4F0ACC91E /* Pods-ZoomyHeader_Tests */ = {
@@ -280,7 +305,7 @@
 			buildPhases = (
 				0CB256916A8AFAD242768813BFE14A66 /* Sources */,
 				125A33D9352FA506E6E3A4952B1FB1D2 /* Frameworks */,
-				B6D9A619E957C62137D9501ACD7F82A1 /* Resources */,
+				0ACBF287A4200EB87E3E315D79B66CD6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -375,18 +400,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0ACBF287A4200EB87E3E315D79B66CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812E154FAFC39FD337FE3ED6CB2F5E1E /* ZoomyHeaderCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2981586F5AFE0E327EEE8FC63C8D8B79 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E2EF6D0FF7B542195FBE0B660F150500 /* ZoomyHeader.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6D9A619E957C62137D9501ACD7F82A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,7 +577,7 @@
 		};
 		A1D29EA09A5000ADD7D9FCB7D17C8D3C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9355DECA100EFA778786BF673614BA32 /* ZoomyHeader.xcconfig */;
+			baseConfigurationReference = 0B04837DFC34398B56FA134CF5CB0409 /* ZoomyHeader.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -646,7 +672,7 @@
 		};
 		C4F8B3F729A9E62CAD84828586C2CD91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9355DECA100EFA778786BF673614BA32 /* ZoomyHeader.xcconfig */;
+			baseConfigurationReference = 0B04837DFC34398B56FA134CF5CB0409 /* ZoomyHeader.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZoomyHeader";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -663,7 +689,7 @@
 		};
 		D0F2EC4DF2CCFF5E555BFF36710CB979 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9355DECA100EFA778786BF673614BA32 /* ZoomyHeader.xcconfig */;
+			baseConfigurationReference = 0B04837DFC34398B56FA134CF5CB0409 /* ZoomyHeader.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZoomyHeader";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -722,7 +748,7 @@
 		};
 		FA9907B036228003053A860EE232BFF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9355DECA100EFA778786BF673614BA32 /* ZoomyHeader.xcconfig */;
+			baseConfigurationReference = 0B04837DFC34398B56FA134CF5CB0409 /* ZoomyHeader.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
