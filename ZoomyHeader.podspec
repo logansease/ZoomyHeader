@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZoomyHeader'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A nice image header cell that zooms as you scroll up'
 
 # This description is used to generate tags and improve search results.
@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 Zoomy header is a way to add an image cell to your UITableView that will zoom in as you scroll up, similar to Twitter and other apps. It is simple to implement with just a few lines of code!
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ZoomyHeader'
+  s.homepage         = 'https://github.com/logansease/ZoomyHeader'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Logan Sease' => 'logan.sease@qonceptual.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/ZoomyHeader.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Logan Sease' => 'lsease@gmail.com' }
+  s.source           = { :git => 'https://github.com/logansease/ZoomyHeader.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/logansease'
 
   s.ios.deployment_target = '8.0'
 
