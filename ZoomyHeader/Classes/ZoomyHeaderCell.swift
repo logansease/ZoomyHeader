@@ -8,31 +8,31 @@
 
 import UIKit
 
-public class ZoomyHeaderCell : UITableViewCell, UIScrollViewDelegate {
+open class ZoomyHeaderCell : UITableViewCell, UIScrollViewDelegate {
 
-    @IBOutlet public var fullImageView: UIImageView!
+    @IBOutlet open var fullImageView: UIImageView!
     @IBOutlet var scrollView : UIScrollView!
     
-    public var originalHeight : CGFloat = 150
+    open var originalHeight : CGFloat = 150
     
-    override public func awakeFromNib() {
+    override open func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        fullImageView.autoresizingMask = .FlexibleHeight
+        fullImageView.autoresizingMask = .flexibleHeight
     }
 
-    override public func setSelected(selected: Bool, animated: Bool) {
+    override open func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         // Configure the view for the selected state
     }
     
     //this method will be called by our scroll view to tell it to zoom on the images
-    public func viewForZoomingInScrollView(scrollView: UIScrollView) -> UIView? {
+    open func viewForZooming(in scrollView: UIScrollView) -> UIView? {
         return fullImageView
     }
     
     //this should be called by our view controller when the tableview scrolls
-    public func didScroll(tableView : UITableView!)
+    open func didScroll(_ tableView : UITableView!)
     {
         var frame = scrollView.frame;
         frame.size.height =  max((originalHeight - tableView.contentOffset.y),0);
@@ -41,15 +41,15 @@ public class ZoomyHeaderCell : UITableViewCell, UIScrollViewDelegate {
         scrollView.zoomScale = 1 + (abs(min(tableView.contentOffset.y,0))/320.0);
     }
     
-    public class func registerZoomyCellIdentifier(tableView: UITableView!, identifier : String! = "ZoomyHeaderCell")
+    open class func registerZoomyCellIdentifier(_ tableView: UITableView!, identifier : String! = "ZoomyHeaderCell")
     {
-        let podBundle = NSBundle(forClass: self)
-        if let bundleURL = podBundle.URLForResource("ZoomyHeader", withExtension: "bundle") {
+        let podBundle = Bundle(for: self)
+        if let bundleURL = podBundle.url(forResource: "ZoomyHeader", withExtension: "bundle") {
             
-            if let bundle = NSBundle(URL: bundleURL) {
+            if let bundle = Bundle(url: bundleURL) {
                 
                 let cellNib = UINib(nibName: "ZoomyHeaderCell", bundle: bundle)
-                tableView.registerNib(cellNib, forCellReuseIdentifier: identifier)
+                tableView.register(cellNib, forCellReuseIdentifier: identifier)
                 
             }else {
                 
