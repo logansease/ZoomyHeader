@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZoomyHeader'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A nice image header cell that zooms as you scroll up'
 
 # This description is used to generate tags and improve search results.
